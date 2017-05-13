@@ -1,16 +1,18 @@
 ## lavaradio
 
-### Change `/etc/hosts`:
+
+### Usage
+Change `/etc/hosts`:
 ```
 127.0.0.1       s1.lavaradio.com
 ```
 
-### Run the `server.js`:
+Run the `server.js`:
 ```
 node server.js
 ```
 
-### Open LavaRadio:
+Open LavaRadio:
 ```
 http://www.lavaradio.com/
 ```

@@ -1,0 +1,141 @@
+
+.navbarblack{
+    width: 100%;
+    background: #4a4a4a;
+    padding: 0px;
+    border: 0px;
+    height: 44px;
+    position: relative;
+}
+#header .navbar-inner{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+.navbarblack-inner{
+    width: 100%;
+    height: 44px;
+}
+.navbarblack .navbarblack-left{
+    float: left;
+    margin: 0px;
+}
+.navbarblack .navbarblack-left li{
+    float: left;
+}
+.navbarblack .lavasite-header-sub li{
+    float: left;
+    margin-left: 0px;
+
+}
+.navbarblack .navbarblack-left>li:first-child{
+    margin-left: 44px;
+}
+.navbarblack .lavasite-header-sub .lavasite-header-sub-product > a {
+    padding: 0px !important;
+}
+.navbarblack .navbarblack-left li > a {
+    display: block;
+    color: #fff;
+    line-height: 18px;
+    padding: 13px 44px;
+    text-decoration: none;
+}
+.navbarblack .navbarblack-left li > a:hover {
+    color: #a0cfff;
+}
+.navbarblack .navbarblack-left li.hover a{
+    color: #a0cfff;
+}
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.lavasite-header-sub {
+    z-index: 100;
+    display: none;
+    width: 100%;
+    background: #F5F3F3;
+    position:fixed;
+    top: 45px;
+    left: 0;
+}
+.lavasite-header-sub-product-first{
+    margin-left: 44px !important;
+}
+.lavasite-header-wrap-sub {
+
+
+    background: url('../img/smallshadow.jpg') repeat-x bottom;
+    margin: 0 auto;
+    height: 115px;
+    overflow: hidden;
+}
+.lavasite-header-sub ul,
+.lavasite-header-sub li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.lavasite-header-sub-products {
+    overflow: hidden;
+}
+
+.lavasite-header-sub a {
+    color: #fff;
+    text-decoration: none;
+}
+.lavasite-header-sub-product {
+    display: inline;
+    float: left;
+    text-align: center;
+    padding: 0 5px;
+    position: relative;
+    width: 125px;
+}
+.lavasite-header-sub-product a {
+    display: block;
+    padding: 0 11px 5px;
+    -webkit-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    cursor:pointer;
+    position: relative;
+    z-index: 99
+}
+.lavasite-header-sub-product a.hover {
+    color: #515151;
+}
+.lavasite-header-sub-product a .lavasite-header-sub-desc {
+    color: #515151;
+    font-size: 12px;
+}
+
+.lavasite-header-sub-img,.lavasite-header-sub-img img{
+    position:relative;
+    z-index:-1
+}
+.lavasite-header-sub-img {
+    height:55px;
+    padding: 6px 10px 4px 10px;
+}
+.lavasite-header-sub-img img {
+    width: 76px;
+}
+.lavasite-header-sub p {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    *width:100px;
+}
+.navbar .nav > li > a{
+    text-shadow: 0px 0px 0px;
+    color: white;
+    padding: 12px 15px 12px;
+}
